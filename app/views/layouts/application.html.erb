@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Events</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><%= link_to 'Home', root_path %></li>
+        <li><b>Pets</b>
+          <ul>
+            <li><%= link_to 'Clients', users_path %></li>
+            <li><%= link_to 'Pets', pets_path %></li>
+          </ul> 
+        </li>
+      </ul>
+    </nav>
+    <%= yield %>
+  </body>
+</html>

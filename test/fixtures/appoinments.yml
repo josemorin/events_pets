@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  pet: one
+  start: 2022-10-20 15:30:09
+  end: 2022-10-20 15:30:09
+  notes: MyText
+
+two:
+  user: two
+  pet: two
+  start: 2022-10-20 15:30:09
+  end: 2022-10-20 15:30:09
+  notes: MyText

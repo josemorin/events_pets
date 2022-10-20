@@ -3,4 +3,7 @@ class User < ApplicationRecord
   validates :last_name, presence: true
   validates :address, presence: true
   validates :phone, presence: true
+
+  has_many :appoinments
+  has_many :pets, through: :appoinments
 end
